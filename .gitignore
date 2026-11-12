@@ -26,3 +26,12 @@ Thumbs.db
 dist/
 build/
 *.log
+
+# Run log, handoff file and briefings (they describe your hotel's day)
+runs/*
+!runs/.gitkeep
+!runs/README.md
+
+# Your filled-in settings for scheduled runs, and sibling agents you cloned in
+.claude/settings.scheduled.json
+siblings/
